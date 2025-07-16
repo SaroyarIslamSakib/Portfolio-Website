@@ -1,0 +1,88 @@
+/* ######--About me Content--######### */
+/* -----Box1------ */
+.aboutme-content{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.aboutme-content-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 512px;
+    /* border: 2px solid black; */
+}
+.aboutme-content-box1 p{
+    font-size: 20px;
+    color: #8a847a;
+    margin-top: 15px;
+}
+.aboutme-content-box1 h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #282b2d;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+/* Skil */
+.skill-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #213448;
+    color: #dcdad7;
+}
+.aboutme-footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+    background-color: #282b2d;
+    color: white;
+}
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 500px;
+    height: 900px;
+    /* border: 2px solid white; */
+    margin-left: 50px;
+}
+.skill-content h1{
+    margin-top: 40px;
+    color: #DCDAD7;
+}
+.skill-text{
+    display: flex;
+    margin-top: 20px;
+}
+.skill-text p{
+    margin-top: 8px;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.logo-div-child{
+    border: 2px solid white;
+    background-color: #98A1BC;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.skill-text:hover{
+    color: #7AE2CF;
+}
+.logo-div-child:hover{
+    background-color:#7AE2CF;
+}

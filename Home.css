@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ##########---Header---############# */
+
+/* --------Logo Box----------- */
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    /* background-color: #B1AB86; */
+    justify-content: space-evenly;
+}
+.head-logo-box{
+    /* border: 2px solid black; */
+    width: 600px;
+    display: flex;
+    margin-left: 15px;
+
+}
+.head-logo{
+    background-image: url("head_logo.avif");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  50% {
+    transform: scale(1.05);
+    filter: brightness(120%);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+}
+.head-logo:hover{
+    animation: pulse 2s ease;
+}
+.head-logo-box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.85em;
+}
+.head-logo-box-text a{
+    color: black;
+    text-decoration: none;
+}
+
+/* --------Navbar---------- */
+.navbar{
+    background-color: #282b2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 500px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-right: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 45%;
+}
+/* ######--Content--######### */
+/* -----Box1------ */
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.content-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 638px;
+    height: 512px;
+    /* border: 2px solid black; */
+}
+.content-box1 p{
+    font-size: 20px;
+    color: #8a847a;
+    margin-top: 15px;
+}
+.content-box1 h1{
+    font-size: 48px;
+    color: #282b2d;
+}
+.content-box1 h2{
+    font-size: 25px;
+    color: #282b2d;
+    margin-top: 15px;
+}
+.linkdin-logo-box{
+    height: 40px;
+    margin-top: 25px;
+}
+.linkdin-logo-box i{
+    font-size: 1.5em;
+}
+.linkdin-logo-box a{
+    font-size: 1.4em;
+    color: #282b2d;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.content-box2{
+    background-image: url("sakib.png");
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    margin-top: 40px;
+}
+@keyframes photoanimation{
+    0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.content-box2:hover{
+    animation: photoanimation 2s ease;
+}
+
+/* Footer */
+.foot-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:135px;
+    background-color: #282b2d;
+    color: white;
+    margin-top: 50px;
+}
+.foot-content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:96px;
+    width: 127px;
+    /* border: 2px solid white; */
+    color: white;
+}
+.foot-content-box span{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.foot-content-box-text{
+    font-size: 1.2em;
+}
