@@ -1,0 +1,37 @@
+/* ##########--Contact Footer--######## */
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(135deg, #111111, #4d4d4d);
+    color: #fff;
+
+}
+.all-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    height: 50px;
+    width: 20%;
+    /* border: 2px solid white; */
+}
+.all-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    /* border: 2px solid white; */
+    height: 100%;
+    width: 45px;
+    background-color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.all-logo a i{
+    color: #4d4d4d;
+    font-size: 1.4em;
+}
