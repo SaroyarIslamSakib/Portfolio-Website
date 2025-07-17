@@ -21,7 +21,7 @@
 }
 .aboutme-content-box1 h2{
     font-size: 25px;
-    font-family: sans-serif;
+    font-family: serif;
     color: #282b2d;
     margin-top: 15px;
     font-weight: normal;
@@ -41,7 +41,10 @@
     justify-content: space-evenly;
     height: 800px;
     background-color: #282b2d;
+    /* background: linear-gradient(135deg,#4d4d4d , #111111); */
+
     color: white;
+    margin-bottom: 10px;
 }
 .skill-content{
     display: flex;
@@ -81,8 +84,10 @@
     border-radius: 50%;
 }
 .skill-text:hover{
-    color: #7AE2CF;
+
+    color: #F05941;
 }
-.logo-div-child:hover{
-    background-color:#7AE2CF;
+.logo-div:hover{
+    background-color: #F05941;
+
 }

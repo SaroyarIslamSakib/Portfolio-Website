@@ -163,9 +163,10 @@ header{
     align-items: center;
     justify-content: space-evenly;
     height:135px;
-    background-color: #282b2d;
+    background: linear-gradient(135deg, #4d4d4d,  #111111);
     color: white;
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 .foot-content-box{
     display: flex;
