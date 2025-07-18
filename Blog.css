@@ -13,18 +13,19 @@ body {
 .container {
   display: flex;
   justify-content: space-evenly;
-  height: 100vh;
+  height: 100%;
 }
 
 .sidebar {
   width: 250px;
+  height: 100vh;
   background-color: #f0eaea;
   padding: 20px;
   overflow-y: scroll;
   border-right: 1px solid #ccc;
   scrollbar-width: thin;
   scrollbar-color: #8a847a #e0e0e0;
-  margin-top: 22px;
+  margin-top: 26px;
 
 }
 
@@ -44,6 +45,7 @@ body {
 }
 
 .sidebar h2 {
+  text-align: center;
   margin-bottom: 20px;
   font-size: 22px;
   color: #333;
